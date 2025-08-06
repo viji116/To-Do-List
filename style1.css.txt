@@ -1,0 +1,99 @@
+body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+
+      .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+            min-height: 400px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    p {
+      text-align: center;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    input[type="text"] {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      background-color: #667eea;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .task {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px;
+      border-bottom: 1px solid #eee;
+    }
+	.task-checkbox {
+            margin-right: 15px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            accent-color: #667eea;
+        }
+
+    .task-text.completed {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    .actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .clear-btn {
+      margin-top: 15px;
+      width: 100%;
+      background-color: #ff4757;
+    }
+
+    .empty {
+      text-align: center;
+      color: #aaa;
+      padding: 20px;
+	  
+    }
